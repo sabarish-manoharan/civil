@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Composition Project</title>
+    <link rel="icon" href="/logo.webp">
+    <link rel="stylesheet" href="project-style.css" </head>
+
+<body>
+    <header>
+        <h1 id="title">Composition Calculater</h1>
+    </header>
+    <main>
+
+        <div id="main-box">
+            <div id="main-div">
+                <h2 class="main-div-content">Total percentage of mix:100%</h2>
+                <h2 class="main-div-content">Weight of the total mix:1200grams</h2>
+                <form class="main-div-content">
+                    <label for="inp">Enter bitumen percentage Quantity</label>
+                    <select id="inp" type="number">
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                    </select><BR>
+                    <label for="inp2">filler %</label>
+                    <select id="inp2" type="number">
+                        <option>2</option>
+                        <option>4</option>
+                        <option>6</option>
+                        <option>8</option>
+                        <option>10</option>
+                        <option>12</option>
+
+                    </select>
+                </form>
+                <button class="main-div-content" onclick="add()">RESULT</button>
+            </div></div>
+              <div id="resultDivBox">
+                  <div id="resultDiv">
+                    <p class="results"></p>
+                    <i  class="fa-solid fa-person-walking-dashed-line-arrow-right" id="exit" onclick="exit()">exit</i>
+                  </div>
+              </div>
+    </main>
+</body>
+<script src="https://kit.fontawesome.com/5ec59b7b88.js" crossorigin="anonymous"></script>
+<script src="projectScript.js"></script>
+
+</html>
